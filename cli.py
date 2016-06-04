@@ -9,7 +9,7 @@ import footcode as fc
 
 
 def is_polish_sounding(name):
-    return (name.endswith('ski') or name.endswith('cki') and
+    return ((name.endswith('ski') or name.endswith('cki')) and
             not ('v' in name or 'x' in name))
 
 
